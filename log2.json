@@ -1,0 +1,1282 @@
+[
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"hi\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "c7pyh5fhb3o5n",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:09:17.875Z",
+    "severity": "INFO",
+    "labels": {
+      "request_id": "b3db0162-4ca2-4835-9ca1-5c4199669c66-fddac391",
+      "protocol": "V2_BETA1",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:09:18.074714572Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"b3db0162-4ca2-4835-9ca1-5c4199669c66-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:09:18.062Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"hi\"\n  score: 1.0\n  parameters {\n    fields {\n      key: \"Name\"\n      value {\n        string_value: \"\"\n      }\n    }\n  }\n  metadata {\n    intent_id: \"5052e358-5762-45c4-b111-1e378a20a7c7\"\n    intent_name: \"conversation starter\"\n    end_conversation: true\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Hi...this is Chandler Bing ...hoping you wouldn't ask my middle name (o_0)\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Hi...this is Chandler Bing ...hoping you wouldn't ask my middle name (o_0)\"\n      }\n    }\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "c7pyh5fhb3o5o",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:09:18.068Z",
+    "severity": "INFO",
+    "labels": {
+      "request_id": "b3db0162-4ca2-4835-9ca1-5c4199669c66-fddac391",
+      "type": "dialogflow_response",
+      "protocol": "V2_BETA1"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:09:18.074714572Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"how are you\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "2hy2jigjtr1snu",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:09:21.840Z",
+    "severity": "INFO",
+    "labels": {
+      "request_id": "caa3a4ca-0ec2-411a-acfe-3b5af1d606dc-fddac391",
+      "protocol": "V2_BETA1",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:09:22.054787011Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"caa3a4ca-0ec2-411a-acfe-3b5af1d606dc-fddac391\"\nlang: \"en\"\nsession_id: \"e8e7104d-43ed-494f-a6f2-c837cdf860bf:webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:09:22.034Z\"\nresult {\n  source: \"domains\"\n  resolved_query: \"how are you\"\n  action: \"smalltalk.greetings.how_are_you\"\n  score: 1.0\n  metadata {\n  }\n  fulfillment {\n    speech: \"Am doing very well. Thank you for asking\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Am doing very well. Thank you for asking\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "2hy2jigjtr1snv",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:09:22.048Z",
+    "severity": "INFO",
+    "labels": {
+      "type": "dialogflow_response",
+      "protocol": "V2_BETA1",
+      "request_id": "caa3a4ca-0ec2-411a-acfe-3b5af1d606dc-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:09:22.054787011Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"who is your dad\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "1bgg43fgm6umgzl",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:09:27.418Z",
+    "severity": "INFO",
+    "labels": {
+      "request_id": "8307b20d-f2ee-483b-b3d7-22cd90578a50-fddac391",
+      "type": "dialogflow_request",
+      "protocol": "V2_BETA1"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:09:27.595554307Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"8307b20d-f2ee-483b-b3d7-22cd90578a50-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:09:27.583Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"who is your dad\"\n  score: 1.0\n  parameters {\n  }\n  contexts {\n    name: \"dad-followup\"\n    lifespan: 2\n    parameters {\n    }\n  }\n  metadata {\n    intent_id: \"3c65e2a2-ef9c-4837-bae5-b716caa80893\"\n    intent_name: \"dad\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Charles Bing.\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Charles Bing.\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "1bgg43fgm6umgzm",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:09:27.589Z",
+    "severity": "INFO",
+    "labels": {
+      "type": "dialogflow_response",
+      "protocol": "V2_BETA1",
+      "request_id": "8307b20d-f2ee-483b-b3d7-22cd90578a50-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:09:27.595554307Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"what does he do\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "ld619dfr1nypc",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:09:31.282Z",
+    "severity": "INFO",
+    "labels": {
+      "type": "dialogflow_request",
+      "protocol": "V2_BETA1",
+      "request_id": "f0eab9bc-4d12-4b8a-b0d0-4efd4217814a-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:09:31.502667324Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"f0eab9bc-4d12-4b8a-b0d0-4efd4217814a-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:09:31.446Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"what does he do\"\n  action: \"dad.dad-custom\"\n  score: 1.0\n  parameters {\n  }\n  contexts {\n    name: \"dad-followup\"\n    lifespan: 1\n    parameters {\n    }\n  }\n  metadata {\n    intent_id: \"63482f56-9d60-47ba-abaf-2f8292bbd5a2\"\n    intent_name: \"dad - he work\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"He works in Las Vegas as a drag artist for a show named Viva Las Gaygas.\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"He works in Las Vegas as a drag artist for a show named Viva Las Gaygas.\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "ld619dfr1nypd",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:09:31.495Z",
+    "severity": "INFO",
+    "labels": {
+      "type": "dialogflow_response",
+      "protocol": "V2_BETA1",
+      "request_id": "f0eab9bc-4d12-4b8a-b0d0-4efd4217814a-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:09:31.502667324Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"do you like him\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "1acgfk7g1y4n0f5",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:09:37.071Z",
+    "severity": "INFO",
+    "labels": {
+      "type": "dialogflow_request",
+      "request_id": "fbd7c42b-328e-45a1-8cdf-96a0de8d08ab-fddac391",
+      "protocol": "V2_BETA1"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:09:37.245064393Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"fbd7c42b-328e-45a1-8cdf-96a0de8d08ab-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:09:37.234Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"do you like him\"\n  action: \"dad.dad-custom\"\n  score: 1.0\n  parameters {\n  }\n  metadata {\n    intent_id: \"e83f2ecb-3757-405c-8d75-e9c00e3e83e2\"\n    intent_name: \"dad - like him\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"He loves me so much. I love him too. Nonetheless, we are not very close. I did not talk to him for years until my marriage. I am disappointed with my parents divorce and how bad they dealt with each other.\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"He loves me so much. I love him too. Nonetheless, we are not very close. I did not talk to him for years until my marriage. I am disappointed with my parents divorce and how bad they dealt with each other.\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "1acgfk7g1y4n0f6",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:09:37.241Z",
+    "severity": "INFO",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "fbd7c42b-328e-45a1-8cdf-96a0de8d08ab-fddac391",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:09:37.245064393Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"that is nice\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "l3b9ong1yy08r7",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:09:42.077Z",
+    "severity": "INFO",
+    "labels": {
+      "request_id": "f2e25122-52c2-4ee9-a32d-15cec9dcc21c-fddac391",
+      "protocol": "V2_BETA1",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:09:42.251851435Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"f2e25122-52c2-4ee9-a32d-15cec9dcc21c-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:09:42.239Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"that is nice\"\n  score: 0.36624482\n  parameters {\n    fields {\n      key: \"insult\"\n      value {\n        string_value: \"that\"\n      }\n    }\n  }\n  metadata {\n    intent_id: \"bd886a41-9146-489b-9ea5-75530e915051\"\n    intent_name: \"insult\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Oh no...hole in my tin chest...help help!\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Oh no...hole in my tin chest...help help!\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "l3b9ong1yy08r8",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:09:42.245Z",
+    "severity": "INFO",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "f2e25122-52c2-4ee9-a32d-15cec9dcc21c-fddac391",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:09:42.251851435Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"who is your mom\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "1mu0xskgeck5qv7",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:09:53.550Z",
+    "severity": "INFO",
+    "labels": {
+      "request_id": "88d8e6b7-0a6f-4a54-9784-faf6f48821ae-fddac391",
+      "type": "dialogflow_request",
+      "protocol": "V2_BETA1"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:09:53.723360251Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"88d8e6b7-0a6f-4a54-9784-faf6f48821ae-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:09:53.713Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"who is your mom\"\n  score: 1.0\n  parameters {\n  }\n  contexts {\n    name: \"mother-followup\"\n    lifespan: 2\n    parameters {\n    }\n  }\n  metadata {\n    intent_id: \"fe8132ff-5b3e-4f72-ada7-67f88983ae6f\"\n    intent_name: \"Mother\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Nora Bing\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Nora Bing\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "1mu0xskgeck5qv8",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:09:53.718Z",
+    "severity": "INFO",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "type": "dialogflow_response",
+      "request_id": "88d8e6b7-0a6f-4a54-9784-faf6f48821ae-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:09:53.723360251Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"what does she do\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "1gzwmihgeby96v6",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:10:02.966Z",
+    "severity": "INFO",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "f2a92bf9-7fa6-4145-954f-6c1d8d506e39-fddac391",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:10:03.147682682Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"f2a92bf9-7fa6-4145-954f-6c1d8d506e39-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:10:03.135Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"what does she do\"\n  action: \"Mother.Mother-custom\"\n  score: 1.0\n  parameters {\n  }\n  contexts {\n    name: \"mother-followup\"\n    lifespan: 1\n    parameters {\n    }\n  }\n  metadata {\n    intent_id: \"d43b9c9c-0b50-4f99-949f-154eafc54eaa\"\n    intent_name: \"Mother - occupation\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Embarrasses me\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Embarrasses me\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "1gzwmihgeby96v7",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:10:03.140Z",
+    "severity": "INFO",
+    "labels": {
+      "request_id": "f2a92bf9-7fa6-4145-954f-6c1d8d506e39-fddac391",
+      "type": "dialogflow_response",
+      "protocol": "V2_BETA1"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:10:03.147682682Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"oops\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "1ckd4w8g7z90gzj",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:10:06.374Z",
+    "severity": "INFO",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "type": "dialogflow_request",
+      "request_id": "f53846c9-25fe-4148-87e5-8ed99ddca18a-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:10:06.560089354Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"f53846c9-25fe-4148-87e5-8ed99ddca18a-fddac391\"\nlang: \"en\"\nsession_id: \"e8e7104d-43ed-494f-a6f2-c837cdf860bf:webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:10:06.551Z\"\nresult {\n  source: \"domains\"\n  resolved_query: \"oops\"\n  action: \"smalltalk.dialog.sorry\"\n  score: 1.0\n  metadata {\n  }\n  fulfillment {\n    speech: \"Don't be\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Don't be\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "1ckd4w8g7z90gzk",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:10:06.555Z",
+    "severity": "INFO",
+    "labels": {
+      "type": "dialogflow_response",
+      "protocol": "V2_BETA1",
+      "request_id": "f53846c9-25fe-4148-87e5-8ed99ddca18a-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:10:06.560089354Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"who are your friends\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "81xutfgctcmiqk",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:10:14.202Z",
+    "severity": "INFO",
+    "labels": {
+      "request_id": "62711d69-cf0c-493f-8056-86b5339622c3-fddac391",
+      "protocol": "V2_BETA1",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:10:14.399648877Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"62711d69-cf0c-493f-8056-86b5339622c3-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:10:14.389Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"who are your friends\"\n  score: 1.0\n  parameters {\n  }\n  contexts {\n    name: \"friends-followup\"\n    lifespan: 2\n    parameters {\n    }\n  }\n  metadata {\n    intent_id: \"b1c41f6c-f87b-4297-a5e0-8276f84ac66b\"\n    intent_name: \"Friends\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Joey, Ross, Monica, Rachel and Phoebe\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Joey, Ross, Monica, Rachel and Phoebe\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "81xutfgctcmiql",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:10:14.394Z",
+    "severity": "INFO",
+    "labels": {
+      "type": "dialogflow_response",
+      "protocol": "V2_BETA1",
+      "request_id": "62711d69-cf0c-493f-8056-86b5339622c3-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:10:14.399648877Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"who do you like the most\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "3weqrug2rfi3ef",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:10:19.933Z",
+    "severity": "INFO",
+    "labels": {
+      "request_id": "0f71ca17-7134-4a28-914f-b1979e7fc7fe-fddac391",
+      "protocol": "V2_BETA1",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:10:20.114729492Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"0f71ca17-7134-4a28-914f-b1979e7fc7fe-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:10:20.107Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"who do you like the most\"\n  action: \"Friends.Friends-custom\"\n  score: 1.0\n  parameters {\n    fields {\n      key: \"compliment\"\n      value {\n        string_value: \"like\"\n      }\n    }\n  }\n  contexts {\n    name: \"friends-likethemost-followup\"\n    lifespan: 2\n    parameters {\n      fields {\n        key: \"compliment\"\n        value {\n          string_value: \"like\"\n        }\n      }\n      fields {\n        key: \"compliment.original\"\n        value {\n          string_value: \"like\"\n        }\n      }\n    }\n  }\n  contexts {\n    name: \"friends-followup\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"compliment\"\n        value {\n          string_value: \"like\"\n        }\n      }\n      fields {\n        key: \"compliment.original\"\n        value {\n          string_value: \"like\"\n        }\n      }\n    }\n  }\n  metadata {\n    intent_id: \"402d1ae7-9d03-4201-8d5b-8eb0ca2131b0\"\n    intent_name: \"Friends - like the most\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Hmmm...I like everyone sometimes\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Hmmm...I like everyone sometimes\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "3weqrug2rfi3eg",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:10:20.111Z",
+    "severity": "INFO",
+    "labels": {
+      "request_id": "0f71ca17-7134-4a28-914f-b1979e7fc7fe-fddac391",
+      "protocol": "V2_BETA1",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:10:20.114729492Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"why\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "1o2imxg11xsypb",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:10:23.084Z",
+    "severity": "INFO",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "type": "dialogflow_request",
+      "request_id": "54b34f81-ddee-43e5-9d05-ba9469851fe2-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:10:23.287475587Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"54b34f81-ddee-43e5-9d05-ba9469851fe2-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:10:23.275Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"why\"\n  action: \"Friends.Friends-custom.Friends-likethemost-custom\"\n  score: 1.0\n  parameters {\n    fields {\n      key: \"compliment\"\n      value {\n        string_value: \"\"\n      }\n    }\n    fields {\n      key: \"insult\"\n      value {\n        string_value: \"\"\n      }\n    }\n  }\n  contexts {\n    name: \"friends-likethemost-why-followup\"\n    lifespan: 2\n    parameters {\n      fields {\n        key: \"compliment\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"compliment.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"insult\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"insult.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  contexts {\n    name: \"friends-likethemost-followup\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"compliment\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"compliment.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"insult\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"insult.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  metadata {\n    intent_id: \"cfd7ab19-a276-4396-91c7-25275f9eace5\"\n    intent_name: \"Friends - like the most - why\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"That is how it is to have friends...we don't like them really, but we can't survive without them either :)\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"That is how it is to have friends...we don't like them really, but we can't survive without them either :)\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "1o2imxg11xsypc",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:10:23.282Z",
+    "severity": "INFO",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "type": "dialogflow_response",
+      "request_id": "54b34f81-ddee-43e5-9d05-ba9469851fe2-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:10:23.287475587Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"do you like pizza\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "11qhzddg51fg2ub",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:10:36.110Z",
+    "severity": "INFO",
+    "labels": {
+      "type": "dialogflow_request",
+      "protocol": "V2_BETA1",
+      "request_id": "babf3b45-3376-4c88-b165-b85a576ad626-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:10:36.296025692Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"babf3b45-3376-4c88-b165-b85a576ad626-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:10:36.284Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"do you like pizza\"\n  score: 1.0\n  parameters {\n    fields {\n      key: \"likes\"\n      value {\n        string_value: \"pizza\"\n      }\n    }\n  }\n  contexts {\n    name: \"friends-likethemost-why-followup\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"compliment\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"compliment.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"insult\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"insult.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"likes\"\n        value {\n          string_value: \"pizza\"\n        }\n      }\n      fields {\n        key: \"likes.original\"\n        value {\n          string_value: \"pizza\"\n        }\n      }\n    }\n  }\n  metadata {\n    intent_id: \"3c0a2b1a-b032-4bb2-8852-95d60a6d0c97\"\n    intent_name: \"likes\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"I live for them\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"I live for them\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "11qhzddg51fg2uc",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:10:36.290Z",
+    "severity": "INFO",
+    "labels": {
+      "type": "dialogflow_response",
+      "protocol": "V2_BETA1",
+      "request_id": "babf3b45-3376-4c88-b165-b85a576ad626-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:10:36.296025692Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"do you like to dance\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "o5adzbg29u8kii",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:10:47.007Z",
+    "severity": "INFO",
+    "labels": {
+      "request_id": "b767753e-3cb9-4e0c-af20-27ad3ebd4eb9-fddac391",
+      "type": "dialogflow_request",
+      "protocol": "V2_BETA1"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:10:47.223622596Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"b767753e-3cb9-4e0c-af20-27ad3ebd4eb9-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:10:47.212Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"do you like to dance\"\n  score: 1.0\n  parameters {\n    fields {\n      key: \"dislikes\"\n      value {\n        string_value: \"\"\n      }\n    }\n    fields {\n      key: \"music-genre\"\n      value {\n        string_value: \"dance music\"\n      }\n    }\n  }\n  metadata {\n    intent_id: \"422234bc-bb9c-4441-8651-100b4781c20c\"\n    intent_name: \"dislikes\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Nope\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Nope\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "o5adzbg29u8kij",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:10:47.217Z",
+    "severity": "INFO",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "type": "dialogflow_response",
+      "request_id": "b767753e-3cb9-4e0c-af20-27ad3ebd4eb9-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:10:47.223622596Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"i have a boyfriend\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "kjkw4ug5khxzws",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:11:01.332Z",
+    "severity": "INFO",
+    "labels": {
+      "request_id": "2670e23f-64ad-4dbc-9df1-37aaeb9eac13-fddac391",
+      "type": "dialogflow_request",
+      "protocol": "V2_BETA1"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:11:01.514548746Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"2670e23f-64ad-4dbc-9df1-37aaeb9eac13-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:11:01.502Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"i have a boyfriend\"\n  score: 0.51681185\n  parameters {\n    fields {\n      key: \"Love\"\n      value {\n        string_value: \"boyfriend\"\n      }\n    }\n  }\n  metadata {\n    intent_id: \"456d6c2b-b2a9-4cf5-9b49-0d07662ece63\"\n    intent_name: \"Love - matching\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Until I was 25, I thought the only response to \\\"I love you\\\" was \\\"Oh, crap!\\\"\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Until I was 25, I thought the only response to \\\"I love you\\\" was \\\"Oh, crap!\\\"\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "kjkw4ug5khxzwt",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:11:01.508Z",
+    "severity": "INFO",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "2670e23f-64ad-4dbc-9df1-37aaeb9eac13-fddac391",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:11:01.514548746Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"that\\\\u0027s bad!\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "3weqrug2rg0ve3",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:11:14.239Z",
+    "severity": "INFO",
+    "labels": {
+      "type": "dialogflow_request",
+      "protocol": "V2_BETA1",
+      "request_id": "63b6a9d0-e1af-4ae0-916a-7146836f209e-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:11:14.518737979Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"63b6a9d0-e1af-4ae0-916a-7146836f209e-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:11:14.512Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"that's bad!\"\n  score: 0.51952696\n  parameters {\n    fields {\n      key: \"insult\"\n      value {\n        string_value: \"that\"\n      }\n    }\n  }\n  metadata {\n    intent_id: \"bd886a41-9146-489b-9ea5-75530e915051\"\n    intent_name: \"insult\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Oh no...hole in my tin chest...help help!\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Oh no...hole in my tin chest...help help!\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "3weqrug2rg0ve4",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:11:14.516Z",
+    "severity": "INFO",
+    "labels": {
+      "type": "dialogflow_response",
+      "request_id": "63b6a9d0-e1af-4ae0-916a-7146836f209e-fddac391",
+      "protocol": "V2_BETA1"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:11:14.518737979Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"you are dumb\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "1t7e8c8gdkwlvsw",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:11:28.195Z",
+    "severity": "INFO",
+    "labels": {
+      "request_id": "5c0248bb-d9e4-4e1c-ad3a-ac8a7f2260a2-fddac391",
+      "type": "dialogflow_request",
+      "protocol": "V2_BETA1"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:11:28.390418832Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"5c0248bb-d9e4-4e1c-ad3a-ac8a7f2260a2-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:11:28.378Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"you are dumb\"\n  score: 1.0\n  parameters {\n    fields {\n      key: \"insult\"\n      value {\n        string_value: \"stupid\"\n      }\n    }\n  }\n  metadata {\n    intent_id: \"bd886a41-9146-489b-9ea5-75530e915051\"\n    intent_name: \"insult\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Okay..my tin chest feels sad\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Okay..my tin chest feels sad\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "1t7e8c8gdkwlvsx",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:11:28.383Z",
+    "severity": "INFO",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "type": "dialogflow_response",
+      "request_id": "5c0248bb-d9e4-4e1c-ad3a-ac8a7f2260a2-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:11:28.390418832Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"i was joking..i like you\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "11qhmogg11iztm4",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:11:50.564Z",
+    "severity": "INFO",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "type": "dialogflow_request",
+      "request_id": "9b076d08-f002-47d0-91b8-eeffd7200708-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:11:50.779331280Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"9b076d08-f002-47d0-91b8-eeffd7200708-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:11:50.77Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"i was joking..i like you\"\n  score: 0.47784662\n  parameters {\n    fields {\n      key: \"likes\"\n      value {\n        string_value: \"joking\"\n      }\n    }\n  }\n  metadata {\n    intent_id: \"ce11b6a6-909a-4a69-946a-11e17922019b\"\n    intent_name: \"Tell me a joke\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"How many times can you subtract 10 from 100?\\nOnce. The next time you would be subtracting 10 from 90.\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"How many times can you subtract 10 from 100?\\nOnce. The next time you would be subtracting 10 from 90.\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "11qhmogg11iztm5",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:11:50.774Z",
+    "severity": "INFO",
+    "labels": {
+      "type": "dialogflow_response",
+      "request_id": "9b076d08-f002-47d0-91b8-eeffd7200708-fddac391",
+      "protocol": "V2_BETA1"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:11:50.779331280Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"what do you do\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "dvuoalg768zzxx",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:12:11.656Z",
+    "severity": "INFO",
+    "labels": {
+      "request_id": "c914e0ab-e284-40cd-9086-0c4a8c3c046f-fddac391",
+      "protocol": "V2_BETA1",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:12:11.838058701Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"c914e0ab-e284-40cd-9086-0c4a8c3c046f-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:12:11.824Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"what do you do\"\n  score: 1.0\n  parameters {\n  }\n  contexts {\n    name: \"profession-followup\"\n    lifespan: 2\n    parameters {\n    }\n  }\n  metadata {\n    intent_id: \"02218b44-8fa3-49b7-9676-e8aaec0a122a\"\n    intent_name: \"Profession\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"I used to work in statistical analysis and data reconfiguration. But I left that job and now am a Junior copywriter in an advertising agency. I like this one.\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"I used to work in statistical analysis and data reconfiguration. But I left that job and now am a Junior copywriter in an advertising agency. I like this one.\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "dvuoalg768zzxy",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:12:11.830Z",
+    "severity": "INFO",
+    "labels": {
+      "type": "dialogflow_response",
+      "protocol": "V2_BETA1",
+      "request_id": "c914e0ab-e284-40cd-9086-0c4a8c3c046f-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:12:11.838058701Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"how is that working out for you\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "g3jivfg1u9wdv9",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:12:21.047Z",
+    "severity": "INFO",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "type": "dialogflow_request",
+      "request_id": "e252c35b-4b81-4794-b004-6639082dade2-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:12:21.222529581Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"e252c35b-4b81-4794-b004-6639082dade2-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:12:21.209Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"how is that working out for you\"\n  action: \"Profession.Profession-custom\"\n  score: 0.7188784\n  parameters {\n    fields {\n      key: \"compliment\"\n      value {\n        string_value: \"\"\n      }\n    }\n  }\n  contexts {\n    name: \"profession-followup\"\n    lifespan: 1\n    parameters {\n      fields {\n        key: \"compliment\"\n        value {\n          string_value: \"\"\n        }\n      }\n      fields {\n        key: \"compliment.original\"\n        value {\n          string_value: \"\"\n        }\n      }\n    }\n  }\n  metadata {\n    intent_id: \"1a9c081a-ad13-4d63-a039-d53a1182a70a\"\n    intent_name: \"Profession - How is the new Job\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"I think I was born for it!\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"I think I was born for it!\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "g3jivfg1u9wdva",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:12:21.215Z",
+    "severity": "INFO",
+    "labels": {
+      "type": "dialogflow_response",
+      "request_id": "e252c35b-4b81-4794-b004-6639082dade2-fddac391",
+      "protocol": "V2_BETA1"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:12:21.222529581Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"that\\\\u0027s nice\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "116udr0g9hfocqw",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:12:28.582Z",
+    "severity": "INFO",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "type": "dialogflow_request",
+      "request_id": "b0e354dd-9a11-4898-9804-52cbdf4d4682-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:12:28.784267330Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"b0e354dd-9a11-4898-9804-52cbdf4d4682-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:12:28.772Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"that's nice\"\n  score: 0.47039717\n  parameters {\n  }\n  metadata {\n    intent_id: \"f19638bd-4b49-43a7-a6d0-78607595c9c7\"\n    intent_name: \"Knowledge.KnowledgeBase.NTczMTAyMTg0MDg1MjE4OTE4NA\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Many things\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Many things\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "116udr0g9hfocqx",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:12:28.777Z",
+    "severity": "INFO",
+    "labels": {
+      "type": "dialogflow_response",
+      "protocol": "V2_BETA1",
+      "request_id": "b0e354dd-9a11-4898-9804-52cbdf4d4682-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:12:28.784267330Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"what is your opinion on current elections\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "1r00es9fsy75ak",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:12:52.482Z",
+    "severity": "INFO",
+    "labels": {
+      "type": "dialogflow_request",
+      "request_id": "2fe3e44f-9f41-49bd-9f8c-f94830910174-fddac391",
+      "protocol": "V2_BETA1"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:12:52.691030550Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"2fe3e44f-9f41-49bd-9f8c-f94830910174-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:12:52.679Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"what is your opinion on current elections\"\n  score: 0.59921455\n  parameters {\n  }\n  metadata {\n    intent_id: \"e2e437a9-714d-40d4-9050-b377099d9436\"\n    intent_name: \"about user\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"I may like you...really not sure\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"I may like you...really not sure\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "1r00es9fsy75al",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:12:52.685Z",
+    "severity": "INFO",
+    "labels": {
+      "type": "dialogflow_response",
+      "request_id": "2fe3e44f-9f41-49bd-9f8c-f94830910174-fddac391",
+      "protocol": "V2_BETA1"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:12:52.691030550Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"what do you know about economy of USA\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "f9i58tf3tamlp",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:13:17.042Z",
+    "severity": "INFO",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "type": "dialogflow_request",
+      "request_id": "63884e1a-6370-4fa5-adb2-451707d226d3-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:13:17.237861982Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"63884e1a-6370-4fa5-adb2-451707d226d3-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:13:17.23Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"what do you know about economy of USA\"\n  score: 0.7448577\n  parameters {\n  }\n  metadata {\n    intent_id: \"8d5b5335-bed1-42ff-9a0e-2a43ae272b0a\"\n    intent_name: \"bored\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Zzzzzzzz.....zzz...zzz...zzz\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Zzzzzzzz.....zzz...zzz...zzz\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "f9i58tf3tamlq",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:13:17.233Z",
+    "severity": "INFO",
+    "labels": {
+      "type": "dialogflow_response",
+      "request_id": "63884e1a-6370-4fa5-adb2-451707d226d3-fddac391",
+      "protocol": "V2_BETA1"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:13:17.237861982Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"What do you think about the current covid situation\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "8c4tn3g3p3w029",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:13:35.551Z",
+    "severity": "INFO",
+    "labels": {
+      "type": "dialogflow_request",
+      "protocol": "V2_BETA1",
+      "request_id": "3ca74b4f-4dff-459a-8058-dce1b2664d7c-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:13:35.735469513Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"3ca74b4f-4dff-459a-8058-dce1b2664d7c-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:13:35.726Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"What do you think about the current covid situation\"\n  score: 0.5998662\n  parameters {\n  }\n  metadata {\n    intent_id: \"8d5b5335-bed1-42ff-9a0e-2a43ae272b0a\"\n    intent_name: \"bored\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Zzzzzzzz.....zzz...zzz...zzz\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Zzzzzzzz.....zzz...zzz...zzz\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "8c4tn3g3p3w02a",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:13:35.730Z",
+    "severity": "INFO",
+    "labels": {
+      "request_id": "3ca74b4f-4dff-459a-8058-dce1b2664d7c-fddac391",
+      "type": "dialogflow_response",
+      "protocol": "V2_BETA1"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:13:35.735469513Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"are you married\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "1a2e8spg1g8lkmg",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:14:00.329Z",
+    "severity": "INFO",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "fb672e04-ab70-4209-97f9-cd03743e5d72-fddac391",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:14:00.524797705Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"fb672e04-ab70-4209-97f9-cd03743e5d72-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:14:00.512Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"are you married\"\n  score: 0.97293305\n  parameters {\n  }\n  metadata {\n    intent_id: \"f19638bd-4b49-43a7-a6d0-78607595c9c7\"\n    intent_name: \"Knowledge.KnowledgeBase.NTczMTAyMTg0MDg1MjE4OTE4NA\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Yes..happily!\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Yes..happily!\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "1a2e8spg1g8lkmh",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:14:00.516Z",
+    "severity": "INFO",
+    "labels": {
+      "request_id": "fb672e04-ab70-4209-97f9-cd03743e5d72-fddac391",
+      "protocol": "V2_BETA1",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:14:00.524797705Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"who is your wife\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "1a2lshuezyhfu",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:14:06.829Z",
+    "severity": "INFO",
+    "labels": {
+      "request_id": "3acd0d6b-4422-4e51-ab93-b172891effd1-fddac391",
+      "type": "dialogflow_request",
+      "protocol": "V2_BETA1"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:14:06.993764432Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"3acd0d6b-4422-4e51-ab93-b172891effd1-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:14:06.984Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"who is your wife\"\n  score: 0.97230077\n  parameters {\n  }\n  metadata {\n    intent_id: \"f19638bd-4b49-43a7-a6d0-78607595c9c7\"\n    intent_name: \"Knowledge.KnowledgeBase.NTczMTAyMTg0MDg1MjE4OTE4NA\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Monica Geller Bing\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Monica Geller Bing\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "1a2lshuezyhfv",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:14:06.988Z",
+    "severity": "INFO",
+    "labels": {
+      "type": "dialogflow_response",
+      "protocol": "V2_BETA1",
+      "request_id": "3acd0d6b-4422-4e51-ab93-b172891effd1-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:14:06.993764432Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"what does Monica do?\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "c7pyh5fhdgm8j",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:14:12.924Z",
+    "severity": "INFO",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "0b715dd8-e7e6-467b-8d44-b0d0d1172e7b-fddac391",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:14:13.143703323Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"0b715dd8-e7e6-467b-8d44-b0d0d1172e7b-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:14:13.134Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"what does Monica do?\"\n  score: 0.97245973\n  parameters {\n  }\n  metadata {\n    intent_id: \"f19638bd-4b49-43a7-a6d0-78607595c9c7\"\n    intent_name: \"Knowledge.KnowledgeBase.NTczMTAyMTg0MDg1MjE4OTE4NA\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Cleans….cleans everything…cleans everywhere…cleans all the time!\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Cleans….cleans everything…cleans everywhere…cleans all the time!\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "c7pyh5fhdgm8k",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:14:13.137Z",
+    "severity": "INFO",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "type": "dialogflow_response",
+      "request_id": "0b715dd8-e7e6-467b-8d44-b0d0d1172e7b-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:14:13.143703323Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"how do you know Phoebe\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "n13bg7g8nzh5hc",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:14:32.516Z",
+    "severity": "INFO",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "311494ad-5ec6-4515-8e73-8b91f4b5b093-fddac391",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:14:32.690725531Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"311494ad-5ec6-4515-8e73-8b91f4b5b093-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:14:32.682Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"how do you know Phoebe\"\n  score: 0.97322196\n  parameters {\n  }\n  metadata {\n    intent_id: \"f19638bd-4b49-43a7-a6d0-78607595c9c7\"\n    intent_name: \"Knowledge.KnowledgeBase.NTczMTAyMTg0MDg1MjE4OTE4NA\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Through Monica.\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Through Monica.\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "n13bg7g8nzh5hd",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:14:32.686Z",
+    "severity": "INFO",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "type": "dialogflow_response",
+      "request_id": "311494ad-5ec6-4515-8e73-8b91f4b5b093-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:14:32.690725531Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"why does Phoebe always clean everyone\\\\u0027s aura\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "1i41m3ifz8oni5",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:14:44.925Z",
+    "severity": "INFO",
+    "labels": {
+      "request_id": "34e6fcb6-b0dd-44d4-b1e2-637eea1cd4a0-fddac391",
+      "protocol": "V2_BETA1",
+      "type": "dialogflow_request"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:14:45.104286140Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"34e6fcb6-b0dd-44d4-b1e2-637eea1cd4a0-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:14:45.093Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"why does Phoebe always clean everyone's aura\"\n  score: 0.97067934\n  parameters {\n  }\n  metadata {\n    intent_id: \"f19638bd-4b49-43a7-a6d0-78607595c9c7\"\n    intent_name: \"Knowledge.KnowledgeBase.NTczMTAyMTg0MDg1MjE4OTE4NA\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Because they were dirty! :D\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Because they were dirty! :D\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "1i41m3ifz8oni6",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:14:45.098Z",
+    "severity": "INFO",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "request_id": "34e6fcb6-b0dd-44d4-b1e2-637eea1cd4a0-fddac391",
+      "type": "dialogflow_response"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:14:45.104286140Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"ha ha ha\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "1a2im9eg41oogqs",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:14:51.120Z",
+    "severity": "INFO",
+    "labels": {
+      "request_id": "ac037cc2-3f2f-40bd-84c0-b1fd821fd44b-fddac391",
+      "type": "dialogflow_request",
+      "protocol": "V2_BETA1"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:14:51.315929293Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"ac037cc2-3f2f-40bd-84c0-b1fd821fd44b-fddac391\"\nlang: \"en\"\nsession_id: \"e8e7104d-43ed-494f-a6f2-c837cdf860bf:webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:14:51.306Z\"\nresult {\n  source: \"domains\"\n  resolved_query: \"ha ha ha\"\n  action: \"smalltalk.emotions.ha_ha\"\n  score: 1.0\n  metadata {\n  }\n  fulfillment {\n    speech: \"He he he!\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"He he he!\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "1a2im9eg41oogqt",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:14:51.310Z",
+    "severity": "INFO",
+    "labels": {
+      "request_id": "ac037cc2-3f2f-40bd-84c0-b1fd821fd44b-fddac391",
+      "type": "dialogflow_response",
+      "protocol": "V2_BETA1"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:14:51.315929293Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"do you like coffee?\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "6xz9x7g3j5ibet",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:15:08.227Z",
+    "severity": "INFO",
+    "labels": {
+      "request_id": "3f83b047-e2e8-4900-9db7-8d5f763f1cd0-fddac391",
+      "type": "dialogflow_request",
+      "protocol": "V2_BETA1"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:15:08.424930771Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"3f83b047-e2e8-4900-9db7-8d5f763f1cd0-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:15:08.414Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"do you like coffee?\"\n  score: 1.0\n  parameters {\n    fields {\n      key: \"likes\"\n      value {\n        string_value: \"coffee\"\n      }\n    }\n  }\n  metadata {\n    intent_id: \"3c0a2b1a-b032-4bb2-8852-95d60a6d0c97\"\n    intent_name: \"likes\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"I live for them\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"I live for them\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "6xz9x7g3j5ibeu",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:15:08.418Z",
+    "severity": "INFO",
+    "labels": {
+      "type": "dialogflow_response",
+      "request_id": "3f83b047-e2e8-4900-9db7-8d5f763f1cd0-fddac391",
+      "protocol": "V2_BETA1"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:15:08.424930771Z"
+  },
+  {
+    "textPayload": "Dialogflow Request : {\"session\":\"webdemo-d4d0270d-5046-1524-40db-34497f588451\",\"query_input\":\"{\\n  \\\"text\\\": {\\n    \\\"textInputs\\\": [{\\n      \\\"text\\\": \\\"do you like men\\\"\\n    }]\\n  }\\n}\",\"timezone\":\"America/Denver\"}",
+    "insertId": "l3eeptg1vfjgub",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:15:15.582Z",
+    "severity": "INFO",
+    "labels": {
+      "request_id": "77485a6a-8c2e-4fbe-8c35-91290c0ddb13-fddac391",
+      "type": "dialogflow_request",
+      "protocol": "V2_BETA1"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:15:15.773130476Z"
+  },
+  {
+    "textPayload": "Dialogflow Response : id: \"77485a6a-8c2e-4fbe-8c35-91290c0ddb13-fddac391\"\nlang: \"en\"\nsession_id: \"webdemo-d4d0270d-5046-1524-40db-34497f588451\"\ntimestamp: \"2020-10-09T05:15:15.761Z\"\nresult {\n  source: \"agent\"\n  resolved_query: \"do you like men\"\n  score: 1.0\n  parameters {\n    fields {\n      key: \"dislikes\"\n      value {\n        string_value: \"men\"\n      }\n    }\n    fields {\n      key: \"music-genre\"\n      value {\n        string_value: \"\"\n      }\n    }\n  }\n  metadata {\n    intent_id: \"422234bc-bb9c-4441-8651-100b4781c20c\"\n    intent_name: \"dislikes\"\n    webhook_used: \"false\"\n    webhook_for_slot_filling_used: \"false\"\n    is_fallback_intent: \"false\"\n  }\n  fulfillment {\n    speech: \"Oh my godd! Nooo\"\n    messages {\n      lang: \"en\"\n      type {\n        number_value: 0.0\n      }\n      speech {\n        string_value: \"Oh my godd! Nooo\"\n      }\n    }\n  }\n}\nstatus {\n  code: 200\n  error_type: \"success\"\n}\n",
+    "insertId": "l3eeptg1vfjguc",
+    "resource": {
+      "type": "global",
+      "labels": {
+        "project_id": "ms-chanandler-bong-2b3b6"
+      }
+    },
+    "timestamp": "2020-10-09T05:15:15.767Z",
+    "severity": "INFO",
+    "labels": {
+      "protocol": "V2_BETA1",
+      "type": "dialogflow_response",
+      "request_id": "77485a6a-8c2e-4fbe-8c35-91290c0ddb13-fddac391"
+    },
+    "logName": "projects/ms-chanandler-bong-2b3b6/logs/dialogflow_agent",
+    "trace": "webdemo-d4d0270d-5046-1524-40db-34497f588451",
+    "receiveTimestamp": "2020-10-09T05:15:15.773130476Z"
+  }
+]
